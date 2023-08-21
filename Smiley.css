@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .landpage{
-    font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 255, 255, 0.247)40%,rgba(216, 112, 147, 0.781)),url(Smiley/image2.jpeg);
@@ -14,25 +14,16 @@
 .la{
     justify-content: center;
     display: flex;
-    padding-top: 20px;
-
-}
-.com-text{
-    font-family: 'Yellowtail', cursive;
-    color: palevioletred;
-    font-size: 120px;
-    text-shadow: 0 0 30px black;
-    padding-top: 6px;
-    padding-bottom: 40px;
-    margin-left: 5px;
+    margin: auto;
+    padding-bottom: 10px;
 }
 .la-logo{
-    width: 200px;
-    height: 180px;
+    width: 700px;
+    height: 250px;
 }
 .lan{
     padding: 40px;
-    margin: 0 auto;
+    margin: auto;
     background-color: transparent;
     border-radius: 10px;
     box-shadow: 0 0 5px;
@@ -53,7 +44,7 @@
     border-radius: 6px;
 }
 .landpa:hover{
-    border: 1px solid red;
+    border: none;
     background-color: red;
     transition: 1.5s;
 }
@@ -64,65 +55,45 @@
 }
 /*------------ header ------------*/
 .header{
-    font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgb(8, 20, 66) 0%,rgba(4,9,30,0.2) 45%),url(smiley/about.jpg);
     background-position: center;
     background-size: cover;
-    position: relative;
 }
 nav{
     background-color: transparent;
-    max-height: 80px;
+    position: fixed;
+    width: 95%;
     display: flex;
-    padding: 0;
-    justify-content: space-around;
+    margin: 25px;
+    justify-content: space-between;
     align-items: center;
 }
-body{
-    position: relative;
-}
-.one{
-    position: fixed;
-    width: 100%;
-    z-index: 20;
-}
-.text-logo h2{
-    font-family: 'Yellowtail', cursive;
-    text-align: left;
-    padding-top: -8%;
-    margin-left: -90%;
-    color: rgb(207, 154, 55);
-    font-size: 32px;
-}
 nav img{
-    width:70px;
-    padding-top: 8px;
-    padding-bottom: 10px;
-    margin-left: -44px;
+    width: 230px;
 }
 .nav-links{
     flex: 0.5;
     text-align: right;
 }
 .nav-links ul li{
-    font-family: 'Poppins', sans-serif;
     list-style: none;
     display: inline-block;
-    padding: 12px;
+    padding: 10px;
     position: relative;
-    margin-left: -12px;
 }
 .nav-links ul li a{
     color: palegoldenrod;
     text-decoration: none;
     font-size: 13px;
+    font-weight: 600;
 }
 .nav-links ul li::after{
     content: '';
     width: 0%;
     height: 4px;
+    margin: auto;
     background: rgb(245, 163, 57);
     display: block;
     transition: 0.5s;
@@ -168,11 +139,10 @@ nav img{
 }
 /*---------------- Service --------------*/
 .service{
-    font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
     border-radius: 10px;
     max-width: 100%;
-    height: 750px;
+    height: 720px;
     text-align: center;
     padding-top: 100px;
 }
@@ -194,7 +164,7 @@ nav img{
 .offer-col{
     background: paleturquoise;
     border-radius: 10px;
-    width: 320px;
+    width: 340px;
     height: 200px;
     justify-content: space-evenly;
     transition: 1s;
@@ -206,7 +176,7 @@ nav img{
 }
 .offer-col p{
     margin: 5px;
-    font-weight: 500;
+    font-weight: 530;
 }
 .offer-col:hover{
     box-shadow: 0 0 30px;
@@ -234,13 +204,12 @@ nav img{
 }
 /*-------------------- team ------------------*/
 .team{
-    font-family: 'Poppins', sans-serif;
     background-color: rgb(160, 250, 253);
+    margin: auto;
     padding-top: 20px;
-    border-radius: 10px;
+    border-radius: 7px;
     height: 480px;
     width: 90%;
-    margin: auto;
 }
 .two{
     text-align: center;
@@ -257,8 +226,8 @@ nav img{
 }
 .team-col{
     background-color: transparent;
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 330px;
     border-radius: 10px;
     transition: 1s;
 }
@@ -267,14 +236,13 @@ nav img{
     border: 2px solid palevioletred;
 }
 .team-col img{
+    margin: 20px;
     width: 135px;
     height: 150px;
-    padding-top: 30px;
     border-radius: 10px;
 }
 /*------------------ About ------------------*/
 .about{
-    font-family: 'Poppins', sans-serif;
     padding-top: 120px;
     font-weight: 600;
     text-align: center;
@@ -287,7 +255,6 @@ nav img{
 }
 /*---------- review ----------*/
 .review{
-    font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(aqua,palevioletred);
@@ -317,8 +284,8 @@ nav img{
     height: 250px;
 }
 .view-col img{
+    margin: 10px;
     border-radius: 5px;
-    padding-top: 10px;
     width: 60px;
 }
 .client p{
@@ -354,7 +321,6 @@ nav img{
 }
 /*----------- consult ------------*/
 .consult{
-    font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(palevioletred,aqua);
@@ -379,10 +345,10 @@ nav img{
     transition: 0.1s;
 }
 .consult-col img{
+    margin: 10px;
     width: 75px;
     height: 65px;
     border-radius: 10px;
-    padding-top: 15px;
 }
 .consult-col:hover{
 box-shadow: 0 0 30px rgb(0, 0, 0);
@@ -392,7 +358,7 @@ border: 1px solid palevioletred;
     text-align: center;
 }
 .skill h5{
-    margin: auto;
+    margin: 7px;
     color: black;
     text-align: center;
     padding-bottom: 5px;
@@ -442,7 +408,6 @@ border: 1px solid palevioletred;
     padding-top: 130px;
 }
 .lay{
-    font-family: 'Poppins', sans-serif;
     background-color: rgb(65, 21, 35);
     padding-top: 20px;
     height: 300px;
